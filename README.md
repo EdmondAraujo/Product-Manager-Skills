@@ -2,7 +2,7 @@
 
 # Product Manager Skills
 
-![GitHub stars](https://img.shields.io/github/stars/deanpeters/Product-Manager-Skills?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md) [![Version](https://img.shields.io/badge/version-v0.83-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/releases/latest) [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces) ![Skills](https://img.shields.io/badge/skills-70-informational?style=flat-square)
+![GitHub stars](https://img.shields.io/github/stars/deanpeters/Product-Manager-Skills?style=flat-square) [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey?style=flat-square)](LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](CONTRIBUTING.md) [![Version](https://img.shields.io/badge/version-v0.84-blue?style=flat-square)](https://github.com/deanpeters/Product-Manager-Skills/releases/latest) [![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin%20Marketplace-5C4EE5?style=flat-square)](https://code.claude.com/docs/en/plugin-marketplaces) ![Skills](https://img.shields.io/badge/skills-77-informational?style=flat-square)
 
 ```text
 ╔════════════════════════════════════════════════════════════════════╗
@@ -14,14 +14,14 @@
 ║   ██║     ██║ ╚═╝ ██║    ███████║██║  ██╗██║███████╗███████╗███████║
 ║   ╚═╝     ╚═╝     ╚═╝    ╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 ║                                                                    ║
-║   70 battle-tested skills + 6 command workflows                    ║
+║   77 battle-tested skills + 6 command workflows                    ║
 ║   Claude Code • Cursor • Codex  • n8n • OpenClaw • and more ...    ║
 ║                                                                    ║
-║   v0.83 • July 17, 2026 • CC BY-NC-SA 4.0                          ║
+║   v0.84 • August 10, 2026 • CC BY-NC-SA 4.0                        ║
 ╚════════════════════════════════════════════════════════════════════╝
 ```
 
-**70 battle-tested PM frameworks, ready for Claude, Codex, ChatGPT, and any agent that can read structured knowledge.**
+**77 battle-tested PM frameworks, ready for Claude, Codex, ChatGPT, and any agent that can read structured knowledge.**
 
 ---
 
@@ -79,6 +79,12 @@ Navigate by what you're actually trying to accomplish:
 - The investigation chain: [market-landscape-scan](skills/market-landscape-scan/SKILL.md) → [competitive-research-snapshot](skills/competitive-research-snapshot/SKILL.md) → [competitive-intel-watch](skills/competitive-intel-watch/SKILL.md) → [battle-card-builder](skills/battle-card-builder/SKILL.md) — each consumes the prior's schema, so research becomes a cadence instead of a one-off deck
 - [tam-sam-som-calculator](skills/tam-sam-som-calculator/SKILL.md) — market sizing three ways: your own numbers, guided interview, or autonomous bottom-up research a skeptical CFO can attack one assumption at a time
 
+**Aging products: extend, replace, or retire**
+- [lifecycle-play-advisor](skills/lifecycle-play-advisor/SKILL.md) — start here when a product stops growing: seven transition questions establish the stage, then it picks the play — extend, replace, or retire — and tells you when the honest answer is "nothing yet"
+- [product-lifecycle-plays](skills/product-lifecycle-plays/SKILL.md) — the framework behind that call: the PLC strategy grid, the seven replacement hazards, and a risk register whose last column asks *what is Plan B?*
+- [eol-process](skills/eol-process/SKILL.md) — the whole sunset in six phases, decide → align → plan → prepare → announce → close, including the post-EOL review everyone skips
+- The EOL chain: [eol-readiness-advisor](skills/eol-readiness-advisor/SKILL.md) → [eol-stakeholder-sequence](skills/eol-stakeholder-sequence/SKILL.md) → [eol-checklist](skills/eol-checklist/SKILL.md) → [eol-internal-enablement](skills/eol-internal-enablement/SKILL.md) → [eol-message](skills/eol-message/SKILL.md) — every one runs standalone, sized Light/Standard/Heavy by you
+
 **Career and leadership transitions**
 - [director-readiness-advisor](skills/director-readiness-advisor/SKILL.md) — coaches PMs through the PM→Director shift across four situations: preparing, interviewing, newly landed, recalibrating
 - [vp-cpo-readiness-advisor](skills/vp-cpo-readiness-advisor/SKILL.md) — coaches Directors through VP/CPO transition, including a CEO interview framework for evaluating roles before you accept
@@ -116,7 +122,8 @@ Each pack below is a ZIP of upload-ready skill ZIPs — unzip, then upload indiv
 | Delivery | [`04-delivery-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/04-delivery-pack.zip) | PRDs, stories, epics |
 | AI PM | [`05-ai-pm-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/05-ai-pm-pack.zip) | Context engineering, orchestration, readiness |
 | Market Intel | [`06-market-intel-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/06-market-intel-pack.zip) | The full Market Intelligence Suite: disciplines, investigation chain, frameworks, monitors |
-| All skills | [`99-all-skills-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/99-all-skills-pack.zip) | All 70 skills |
+| Lifecycle & EOL | [`07-lifecycle-eol-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/07-lifecycle-eol-pack.zip) | Aging products: extend, replace, or retire — plus the full sunset process |
+| All skills | [`99-all-skills-pack.zip`](https://github.com/deanpeters/Product-Manager-Skills/releases/latest/download/99-all-skills-pack.zip) | All 77 skills |
 
 ### Install guides
 
@@ -175,7 +182,7 @@ Skills are organized in three tiers that build on each other:
 
 **Interactive skills use an Adaptive Decision Ladder.** Instead of dumping a framework at you, an interactive skill asks 3-5 targeted questions about your specific context, then offers numbered recommendations — each with a clear "use this when" rationale. You pick a path. The skill executes it and explains the *why* as it goes. If you want to just learn the framework without doing the work, you can ask that too — the skill coaches you either way. This is ABC — Always Be Coaching — in practice.
 
-**Full catalog:** [catalog/INDEX.md](catalog/README.md) — all 70 skills with descriptions, or browse `skills/` directly.
+**Full catalog:** [catalog/INDEX.md](catalog/README.md) — all 77 skills with descriptions, or browse `skills/` directly.
 
 ---
 
@@ -220,12 +227,21 @@ See [docs/Platform Guides for PMs.md](docs/Platform%20Guides%20for%20PMs.md) for
 | [Using PM Skills with Slash Commands 101](docs/Using%20PM%20Skills%20with%20Slash%20Commands%20101.md) | Turn skills into reusable slash commands like `/pm-story` |
 | [Add-a-Skill Utility Guide](docs/Add-a-Skill%20Utility%20Guide.md) | End-to-end guide for generating and validating new skills |
 | [Market Intelligence Suite Summary](docs/Market%20Intelligence%20Suite%20Summary.md) | The 14-skill competitive/market research suite: disciplines, chain, and which skill to run when |
+| [Lifecycle & EOL Suite Summary](docs/Lifecycle%20and%20EOL%20Suite%20Summary.md) | The 8-skill lifecycle/sunset suite: the three plays, the EOL chain, and right-sizing |
 | [Building PM Skills](docs/Building%20PM%20Skills.md) | How raw PM content gets distilled into agent-ready skills |
 | [START_HERE.md](START_HERE.md) | 60-second onboarding for local repo users |
 
 ---
 
 ## What's New
+
+**v0.84 — August 10, 2026 · The Lifecycle & End-of-Life Suite**
+- **7 new skills + 1 upgrade** for the part of product management nobody trains you on: what to do with a product that has stopped growing, and how to retire one without losing the customer
+- Start upstream of the kill decision. [`lifecycle-play-advisor`](skills/lifecycle-play-advisor/SKILL.md) and [`product-lifecycle-plays`](skills/product-lifecycle-plays/SKILL.md) diagnose where a product actually sits using seven transition questions, then pick between the three plays — **extend, replace, or retire**. Includes the seven replacement hazards and a risk register whose contingency column asks the question everyone skips: *what is Plan B?*
+- The EOL chain: [`eol-readiness-advisor`](skills/eol-readiness-advisor/SKILL.md) (go/no-go, and it will tell you to hold) → [`eol-stakeholder-sequence`](skills/eol-stakeholder-sequence/SKILL.md) (Legal before Finance before Sales — get the order wrong and you find the landmines after the announcement) → [`eol-checklist`](skills/eol-checklist/SKILL.md) (phase-gated, an owner on every item) → [`eol-internal-enablement`](skills/eol-internal-enablement/SKILL.md) (your teams ready *before* customers hear) → [`eol-message`](skills/eol-message/SKILL.md) (upgraded: three transition paths including the honest no-replacement case) → [`eol-process`](skills/eol-process/SKILL.md) (the whole thing, six phases, including the post-EOL review everybody skips)
+- **Right-sizing is a dial you set, not a verdict handed to you.** Every skill offers Light / Standard / Heavy, defaults to Standard, and names what a lighter choice leaves uncovered. A feature deprecation should never get a flagship playbook — that's how teams learn to ignore EOL process on the sunset that actually matters
+- **No tight coupling.** Every skill runs standalone; the workflow is a recommended route through independent stops, not a pipeline. Enter wherever you actually are — including mid-sunset, with a diagnostic that maps symptoms ("Support is drowning") to the phase that got skipped
+- Library now at **77 skills** · full story in the [release note](docs/announcements/2026-08-10-v0-84-lifecycle-and-eol-suite.md)
 
 **v0.83 — July 17, 2026 · The Market Intelligence Suite**
 - **14 new skills + 2 major upgrades** — the biggest single addition in the library's history. Run competitive and market research like an intelligence agency instead of a term paper: eight collection disciplines (OSINT → MASINT), signal → inference chains, confidence stacking, and a fusion cadence

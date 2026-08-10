@@ -140,6 +140,16 @@ main() {
     tam-sam-som-calculator \
     company-intel
 
+  pack_skills "07-lifecycle-eol-pack.zip" \
+    lifecycle-play-advisor \
+    product-lifecycle-plays \
+    eol-readiness-advisor \
+    eol-process \
+    eol-checklist \
+    eol-stakeholder-sequence \
+    eol-internal-enablement \
+    eol-message
+
   pack_all_skills "99-all-skills-pack.zip"
 
   echo "Claude Desktop/Web packs ready in: ${OUT_DIR#$ROOT/}"

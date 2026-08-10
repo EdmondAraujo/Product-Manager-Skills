@@ -4,16 +4,30 @@
 
 ---
 
-## Project Status (Last updated: Fri Jul 17 2026)
+## Project Status (Last updated: Mon Aug 10 2026)
 
-### Current State: v0.83 (70 skills)
+### Current State: v0.84 (77 skills)
 
-**70 Skills**
-- 24 Component Skills (templates/artifacts + finance metrics + career frameworks + stakeholder tools + intelligence disciplines)
-- 27 Interactive Skills (guided discovery + finance advisors + career advisors + growth + stakeholder engagement + intel triage)
-- 19 Workflow Skills (end-to-end processes + meta skill-authoring + executive onboarding + company intel + market-intelligence investigations)
+**77 Skills**
+- 28 Component Skills (templates/artifacts + finance metrics + career frameworks + stakeholder tools + intelligence disciplines + EOL artifacts + lifecycle plays)
+- 29 Interactive Skills (guided discovery + finance advisors + career advisors + growth + stakeholder engagement + intel triage + EOL readiness + lifecycle play triage)
+- 20 Workflow Skills (end-to-end processes + meta skill-authoring + executive onboarding + company intel + market-intelligence investigations + EOL process)
 - License: CC BY-NC-SA 4.0
 - All skills restructured to Anthropic-compliant format (`skills/skill-name/SKILL.md`)
+
+**Lifecycle & End-of-Life Suite (COMPLETE — released as v0.84, Aug 10 2026)** ✅
+- Release note: `docs/announcements/2026-08-10-v0-84-lifecycle-and-eol-suite.md`
+- Suite summary: `docs/Lifecycle and EOL Suite Summary.md` · Handoff brief: `10AUG26.md`
+- **`product-lifecycle` theme (2 skills, the upstream play decision):**
+  [`lifecycle-play-advisor`](skills/lifecycle-play-advisor/SKILL.md) (Interactive) — 4 questions: product + trigger → seven **transition questions** (scored) → pressure source (demand / supply-cost / capability) → extension test. Recommends extend, replace, retire, harvest, or **"nothing yet"**. [`product-lifecycle-plays`](skills/product-lifecycle-plays/SKILL.md) (Component) — PLC strategy grid, three plays, **seven replacement hazards**, risk register with a contingency column ("what is Plan B?"), portfolio worksheet
+- **`eol-transition` theme (6 skills, executing the retirement):**
+  [`eol-readiness-advisor`](skills/eol-readiness-advisor/SKILL.md) (Interactive, go/no-go + 5 verdicts incl. Hold/Harvest/Extend) → [`eol-stakeholder-sequence`](skills/eol-stakeholder-sequence/SKILL.md) (Legal→Finance→Sales→Marketing→CS→difficult customers→Eng→Support) → [`eol-checklist`](skills/eol-checklist/SKILL.md) (phase-gated, 15 areas, owner per item) → [`eol-internal-enablement`](skills/eol-internal-enablement/SKILL.md) (FAQ, sales points, Acknowledge-Reframe-Offer objections, escalation ladder) → [`eol-message`](skills/eol-message/SKILL.md) (**upgraded**: Brief/Standard/Full, three transition paths) → [`eol-process`](skills/eol-process/SKILL.md) (Workflow, six phases incl. **Close**)
+- **Two conventions that govern the suite — do not regress these:**
+  1. **Right-sizing is a dial the user sets.** Every skill offers Level 1/2/3 (Light/Standard/Heavy), recommends one, honors an override in either direction, and names what a lighter level leaves uncovered. Level 2 is the default; **never default to Level 3**. Process theater on a small sunset teaches teams to ignore process on the big one
+  2. **No tight coupling.** Every skill runs standalone; levels and gates are defined inline (duplicated text, not shared dependencies); `eol-process` is a **route, not a pipeline** with an "Entering Mid-Stream" diagnostic and explicit permission to go backwards. Do not introduce a handoff schema — carrying context means saying "Level 2" and pasting what you have
+- **Lifecycle gates:** GA (a *state*, not a work phase) · NSC · EOS · EOE · EOR (*contract-driven, insert only when renewals run past EOS*) · EOM · EOL · EOSRV. Working checklists span NSC→EOSRV. `Not scheduled` + a recorded precondition beats an invented EOL date
+- **Fully adorned, two interlocking universes:** Fieldlight Classic Dispatch (SaaS, Level 2, all six phases, closes at 94% retention vs. a 90% target) and Northfield Automation NFA-200 (industrial, Level 3, where Phase 2 sends the process back to Phase 1 and the outcome becomes End of Sale with **no EOL date**). The industrial thread is deliberately a *failure worked forward* — the play was right, the risk rating was wrong
+- **Sources:** Dean's GTM/EOL Strategy Workshop deck, "Mastering Product End of Life Strategy" webinar, 5 EOL prompts in `product-manager-prompts`, 2 DOCX checklists. Anonymization held — no client names, no cryogenic-label details; public-record failure cases (Kodak, Zune, Vista, Nest Revolv, AT&T POTS, Amgen) are business history from Dean's own deck
 
 **Market Intelligence Suite (Phase 9, COMPLETE — released as v0.83, Jul 17 2026)** ✅
 - Release note: `docs/announcements/2026-07-17-v0-83-market-intelligence-suite.md`
