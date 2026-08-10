@@ -14,6 +14,9 @@
 - 20 Workflow Skills (end-to-end processes + meta skill-authoring + executive onboarding + company intel + market-intelligence investigations + EOL process)
 - License: CC BY-NC-SA 4.0
 - All skills restructured to Anthropic-compliant format (`skills/skill-name/SKILL.md`)
+- **Metadata complete (Aug 10, 2026):** all 77 skills carry `theme`, `best_for`, `scenarios`, `estimated_time`. 13 themes; `validation-experiments` added for pol-probe / pol-probe-advisor / derisk-measurement-advisor / lean-ux-canvas / recommendation-canvas. Trigger audit passes library-wide with zero warnings
+- **Fully adorned (Adornment Plan 4 COMPLETE, Aug 10, 2026):** every Component and Workflow skill ships `template.md` + two-domain worked examples. Three documented carve-outs: `finance-metrics-quickref` (definitionally SaaS, template only), `skill-authoring-workflow` (meta-skill, one example), `product-sense-interview-answer` (second example varies question type, not industry). Plan: `docs/maintenance/2026-08-10-adornment-plan-4.md`
+- **Three example universes, each with a defined job:** **Fieldlight** (B2B SaaS, field service) · **Northfield Automation** (industrial retrofit controls — hardware, channel, long cycles) · **Brightwater Biologics** (life sciences, clinical trial operations, platform Trialpath — *evidence before revenue*). Brightwater is **scoped, not a general fallback**: use it only where regulated / evidence-driven / long-cycle work IS the lesson. Core artifacts keep an instantly legible second domain
 
 **Lifecycle & End-of-Life Suite (COMPLETE — released as v0.84, Aug 10 2026)** ✅
 - Release note: `docs/announcements/2026-08-10-v0-84-lifecycle-and-eol-suite.md`
@@ -210,6 +213,11 @@
 - **`scripts/find-a-skill.sh`** — Ranked skill discovery helper
   - Search by name, type, and keyword
   - Ranking priority: exact name > frontmatter > section text
+- **`scripts/check-dist-freshness.py`** — Guards the committed `catalog/` and `dist/` shelf
+  - Verifies catalog count+membership, one `dist/` ZIP per skill (no orphans), every declared pack, and `dist/CATALOG.md` coverage
+  - **Content-level, never byte-level** — rebuilt ZIPs differ every run from embedded timestamps
+  - Runs as its **own CI step**, NOT inside `validate-skills.sh`: `build-dist.sh` → `build-release.sh` → `validate-skills.sh`, so a check there would abort the command that fixes the staleness. Also step 7 of `test-library.sh`
+  - Fix drift with: `python3 scripts/generate-catalog.py` then `bash scripts/build-dist.sh`
 - **`scripts/test-a-skill.sh`** — Skill quality gate
   - Runs strict conformance checks (`check-skill-metadata.py`)
   - Verifies linked `skills/*/SKILL.md` references resolve
