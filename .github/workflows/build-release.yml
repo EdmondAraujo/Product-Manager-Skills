@@ -25,6 +25,12 @@ jobs:
       - name: Validate skills
         run: ./scripts/validate-skills.sh
 
+      # Runs as its own step, not inside validate-skills.sh: build-dist.sh calls
+      # build-release.sh which calls validate-skills.sh, so a check living there
+      # would abort the very command that regenerates the shelf.
+      - name: Check committed dist/ and catalog/ are in sync with skills/
+        run: python3 ./scripts/check-dist-freshness.py
+
       - name: Build release artifacts
         run: ./scripts/build-release.sh
 

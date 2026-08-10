@@ -120,6 +120,35 @@ Build everything:
 ./scripts/build-release.sh
 ```
 
+Check that the committed shelf still matches `skills/`:
+
+```bash
+python3 ./scripts/check-dist-freshness.py
+```
+
+## Why `check-dist-freshness.py` Exists
+
+`check-library-drift.py` verifies `marketplace.json` and doc links. It does
+**not** look at `catalog/` or `dist/` — so the library can pass CI completely
+green while the browsable download shelf still advertises the previous release.
+That is exactly what happened between v0.83 and v0.84, and it was caught by hand.
+
+`check-dist-freshness.py` closes that hole. It verifies, content-level:
+
+- `catalog/skills-index.yaml` — declared `count:` and full membership
+- `dist/<skill>.zip` — one per skill, and no orphans left behind
+- `dist/packages/` — every pack declared in `build-claude-desktop-packs.sh`
+- `dist/CATALOG.md` — mentions every skill
+
+**It runs as its own CI step, not inside `validate-skills.sh`.** `build-dist.sh`
+calls `build-release.sh`, which calls `validate-skills.sh` — so a freshness check
+living there would abort the very command you run to fix staleness. Keep it
+separate.
+
+Checks are content-level and never byte-level: rebuilt ZIPs differ on every run
+because of embedded timestamps, so comparing archive bytes would fail constantly
+and train everyone to ignore the check.
+
 ## Important Rules
 
 - Do not edit files under `dist/` by hand — they are generated. Re-run `scripts/build-dist.sh` to refresh the committed shelf.
@@ -127,6 +156,7 @@ Build everything:
 - Claude Desktop/Web packs are ZIPs of individual upload-ready skill ZIPs. Users unzip the pack first, then upload the skill ZIPs inside to Claude.
 - Codex packages are expanded `.agents/skills` folders inside a ZIP, not ZIPs of ZIPs.
 - Do not remove `.claude-plugin/marketplace.json`; Claude Code users rely on the marketplace path.
+- After adding, renaming, or removing a skill, run `python3 scripts/generate-catalog.py` **and** `bash scripts/build-dist.sh`, then commit the result. CI enforces this via `check-dist-freshness.py`.
 - Keep `skills/` stable and canonical.
 - Prefer small Bash scripts and common Unix tools over a heavier build system.
 
