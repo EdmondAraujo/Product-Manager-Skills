@@ -1,10 +1,10 @@
 # Skill Catalog
 
-All **70 skills** in this library. Each links to its individual download ZIP in this folder — click, download, unzip, and upload the `SKILL.md` to Claude. No terminal required.
+All **77 skills** in this library. Each links to its individual download ZIP in this folder — click, download, unzip, and upload the `SKILL.md` to Claude. No terminal required.
 
 > New here? Read [`README.md`](README.md) first — it explains how to pick a pack and install.
 
-## Component Skills (24)
+## Component Skills (28)
 
 _Self-contained artifacts and templates._
 
@@ -13,7 +13,10 @@ _Self-contained artifacts and templates._
 | [`altitude-horizon-framework`](altitude-horizon-framework.zip) | Understand the PM-to-Director transition through altitude and horizon thinking. Use when diagnosing scope, time-horizon, or leadership-level gaps. |
 | [`company-research`](company-research.zip) | Create a company research brief with executive quotes, product strategy, and org context. Use when preparing for interviews, competitive analysis, partnerships, or market-entry work. |
 | [`customer-journey-map`](customer-journey-map.zip) | Create a customer journey map across stages, touchpoints, actions, emotions, and metrics. Use when diagnosing a broken experience or aligning a team on the full customer flow. |
-| [`eol-message`](eol-message.zip) | Write a clear, empathetic EOL announcement with rationale, customer impact, and next steps. Use when retiring a product, feature, or plan without creating avoidable confusion. |
+| [`eol-checklist`](eol-checklist.zip) | Build a phase-gated EOL checklist sized to the sunset, with a named owner on every item. Use when the decision to retire is made and you need the operational plan. |
+| [`eol-internal-enablement`](eol-internal-enablement.zip) | Build the support FAQ, sales talking points, and objection handling teams need before an EOL announcement. Use when customer-facing teams must be ready before customers hear. |
+| [`eol-message`](eol-message.zip) | Write a right-sized EOL announcement — brief notice through full phased comms — with rationale, customer impact, and next steps. Use when retiring a product, feature, or plan. |
+| [`eol-stakeholder-sequence`](eol-stakeholder-sequence.zip) | Plan who to talk to about a sunset, in what order, and what each conversation must cover. Use when an EOL decision is made and you want the landmines found before the announcement. |
 | [`epic-hypothesis`](epic-hypothesis.zip) | Frame an epic as a testable hypothesis with target user, expected outcome, and validation method. Use when defining a major initiative before roadmap, discovery, or delivery planning. |
 | [`finance-metrics-quickref`](finance-metrics-quickref.zip) | Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis. |
 | [`intelligence-collection-disciplines`](intelligence-collection-disciplines.zip) | Run competitive research like an intelligence agency: eight collection disciplines (OSINT to MASINT), signal-to-inference chains, and fusion. Use when one-source research isn't enough. |
@@ -23,6 +26,7 @@ _Self-contained artifacts and templates._
 | [`positioning-statement`](positioning-statement.zip) | Create a Geoffrey Moore-style positioning statement. Use when clarifying who you serve, what problem you solve, your category, and why you're different from alternatives. |
 | [`press-release`](press-release.zip) | Write an Amazon-style press release that defines customer value before building. Use when aligning stakeholders on a new product, feature, or strategic bet. |
 | [`problem-statement`](problem-statement.zip) | Write a user-centered problem statement with who is blocked, what they are trying to do, why it matters, and how it feels. Use when framing discovery, prioritization, or a PRD. |
+| [`product-lifecycle-plays`](product-lifecycle-plays.zip) | Map a product's lifecycle stage and choose between extension, replacement, and retirement plays. Use when a product is maturing or declining and the next move isn't obvious. |
 | [`product-sense-interview-answer`](product-sense-interview-answer.zip) | Structure a spoken PM product-sense answer with assumptions, segmentation, pain-point prioritization, and MVP tradeoffs. Use when practicing design, improve, or build-next interview questions. |
 | [`proto-persona`](proto-persona.zip) | Create a proto-persona from current research, market signals, and team knowledge. Use when you need a working customer profile before deeper validation. |
 | [`recommendation-canvas`](recommendation-canvas.zip) | Evaluate an AI product idea across outcomes, hypotheses, risks, and positioning. Use when deciding whether an AI solution deserves investment or recommendation. |
@@ -35,7 +39,7 @@ _Self-contained artifacts and templates._
 | [`user-story-mapping`](user-story-mapping.zip) | Create a user story map that lays out activities, steps, tasks, and release slices. Use when planning a workflow, backlog, or MVP around the user journey. |
 | [`user-story-splitting`](user-story-splitting.zip) | Break a large story or epic into smaller deliverable stories using proven split patterns. Use when backlog items are too big for estimation, sequencing, or independent release. |
 
-## Interactive Skills (27)
+## Interactive Skills (29)
 
 _Guided, multi-turn advisors that ask then recommend._
 
@@ -50,12 +54,14 @@ _Guided, multi-turn advisors that ask then recommend._
 | [`derisk-measurement-advisor`](derisk-measurement-advisor.zip) | Identify what to measure, test, or track to de-risk a product or AI idea. Use when stress-testing an idea across internal (DUFV) and external (PESTEL) dimensions. |
 | [`director-readiness-advisor`](director-readiness-advisor.zip) | Guide the PM-to-Director transition across preparing, interviewing, landing, and recalibrating. Use when leadership scope is changing and you need practical coaching. |
 | [`discovery-interview-prep`](discovery-interview-prep.zip) | Plan customer discovery interviews with the right goal, segment, constraints, and method. Use when preparing interviews for problem validation, churn research, or new product ideas. |
+| [`eol-readiness-advisor`](eol-readiness-advisor.zip) | Run a go/no-go assessment for retiring a product or feature, then right-size the effort. Use when someone says "we should probably kill this" and nobody has made the call. |
 | [`epic-breakdown-advisor`](epic-breakdown-advisor.zip) | Break down epics into user stories with Humanizing Work split patterns. Use when a backlog item is too large to estimate, sequence, or deliver safely. |
 | [`feature-investment-advisor`](feature-investment-advisor.zip) | Evaluate feature investments using revenue impact, cost structure, ROI, and strategy. Use when deciding whether a feature deserves investment. |
 | [`finance-based-pricing-advisor`](finance-based-pricing-advisor.zip) | Evaluate pricing changes using ARPU, conversion, churn risk, NRR, and payback. Use when deciding whether a pricing move should ship. |
 | [`incoming-request-advisor`](incoming-request-advisor.zip) | Decode an incoming message into a structured breakdown that separates the literal ask from the job-to-be-done. Use before replying to a loaded Slack ping, email, mandate, or escalation. |
 | [`intel-discipline-advisor`](intel-discipline-advisor.zip) | Triage a competitive or market question into the right intelligence disciplines, cadence, and executing skill. Use when you know something needs researching but not which channel to run. |
 | [`lean-ux-canvas`](lean-ux-canvas.zip) | Guide teams through Lean UX Canvas v2. Use when framing a business problem, surfacing assumptions, and defining what to learn next. |
+| [`lifecycle-play-advisor`](lifecycle-play-advisor.zip) | Diagnose where a product sits in its lifecycle and which play fits — extend, replace, or retire. Use when a product is fading and you need the call, not just the worry. |
 | [`opportunity-solution-tree`](opportunity-solution-tree.zip) | Build an Opportunity Solution Tree from outcomes to opportunities, solutions, and tests. Use when a stakeholder request needs problem framing before you decide what to build. |
 | [`organic-growth-advisor`](organic-growth-advisor.zip) | Identify which organic growth path to pursue — new segments, geographies, channels, or products. Use when diagnosing where a growth constraint lives and which McKinsey growth level to act on next. |
 | [`pm-skill-creator`](pm-skill-creator.zip) | Design a new PM skill through guided conversation. Use when you have raw content or an idea and want to shape it into a compliant skill. |
@@ -69,7 +75,7 @@ _Guided, multi-turn advisors that ask then recommend._
 | [`vp-cpo-readiness-advisor`](vp-cpo-readiness-advisor.zip) | Guide the transition to VP or CPO across preparing, interviewing, landing, and recalibrating. Use when executive product scope is changing fast. |
 | [`workshop-facilitation`](workshop-facilitation.zip) | Facilitate workshop sessions in a one-step, multi-turn flow. Use when an interactive skill needs consistent pacing, options, and progress tracking. |
 
-## Workflow Skills (19)
+## Workflow Skills (20)
 
 _End-to-end processes that orchestrate other skills._
 
@@ -83,6 +89,7 @@ _End-to-end processes that orchestrate other skills._
 | [`competitive-intel-watch`](competitive-intel-watch.zip) | Scheduled delta monitoring against a prior competitive snapshot. Use when tracking competitors on a cadence: material shifts only, cited evidence, battle-card update flags, runs unattended. |
 | [`competitive-research-snapshot`](competitive-research-snapshot.zip) | Research a competitive landscape with cited snapshots, a comparison matrix, and so-what implications. Use when a product decision needs competitive grounding, not a market report. |
 | [`discovery-process`](discovery-process.zip) | Run a full discovery cycle from problem hypothesis to validated solution. Use when a team needs a structured path through framing, interviews, synthesis, and experiments. |
+| [`eol-process`](eol-process.zip) | Run a product sunset end to end — decide, align, plan, prepare, announce, close. Use when you need the whole EOL process, not just one artifact. |
 | [`executive-onboarding-playbook`](executive-onboarding-playbook.zip) | Plan a VP or CPO 30-60-90 day diagnostic onboarding path. Use when entering a new executive product role and avoiding premature change. |
 | [`market-landscape-scan`](market-landscape-scan.zip) | Map a market's segments, players, substitutes, and whitespace with cited evidence. Use when entering or re-evaluating a market before sizing, positioning, or picking competitors to study. |
 | [`pestel-delta-monitor`](pestel-delta-monitor.zip) | Quarterly re-scan of a prior PESTEL analysis. Use when checking which macro factors moved, which assumptions broke, and what's new — turning PESTEL from a workshop artifact into a radar. |

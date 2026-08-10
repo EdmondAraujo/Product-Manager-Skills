@@ -1,5 +1,5 @@
 generated_from: skills/*/SKILL.md
-count: 70
+count: 77
 skills:
 - name: acquisition-channel-advisor
   description: Evaluate acquisition channels using unit economics, customer quality,
@@ -224,17 +224,70 @@ skills:
     \ and build confidence before committing to full development\u2014avoiding \"\
     build it and they will come\" syndrome and ensuring you're solving real customer\
     \ problems."
+- name: eol-checklist
+  description: Build a phase-gated EOL checklist sized to the sunset, with a named
+    owner on every item. Use when the decision to retire is made and you need the
+    operational plan.
+  type: component
+  path: skills/eol-checklist/SKILL.md
+  intent: Generate a phase-gated EOL checklist tailored to the complexity of the sunset.
+    Covers up to 15 functional areas across the lifecycle gates, but right-sizes the
+    output so a minor feature deprecation gets a short punch list while a flagship
+    product retirement gets the full cross-functional playbook. Every item names a
+    verb and an owner.
+- name: eol-internal-enablement
+  description: Build the support FAQ, sales talking points, and objection handling
+    teams need before an EOL announcement. Use when customer-facing teams must be
+    ready before customers hear.
+  type: component
+  path: skills/eol-internal-enablement/SKILL.md
+  intent: 'Generate the internal enablement materials customer-facing teams need before
+    an EOL announcement goes out: a support FAQ, sales comparison talking points,
+    objection-handling scripts using Acknowledge-Reframe-Offer, and an escalation
+    playbook. Right-sized so a feature deprecation gets a one-page support note while
+    a major sunset gets a full role-specific enablement pack.'
 - name: eol-message
-  description: Write a clear, empathetic EOL announcement with rationale, customer
-    impact, and next steps. Use when retiring a product, feature, or plan without
-    creating avoidable confusion.
+  description: "Write a right-sized EOL announcement \u2014 brief notice through full\
+    \ phased comms \u2014 with rationale, customer impact, and next steps. Use when\
+    \ retiring a product, feature, or plan."
   type: component
   path: skills/eol-message/SKILL.md
-  intent: Craft a clear, empathetic End-of-Life (EOL) message that communicates product
-    or feature discontinuation, explains the rationale, addresses customer impact,
-    provides transition support, and positions the replacement solution. Use this
-    to maintain customer trust during difficult transitions and reduce churn by demonstrating
-    care and offering a clear path forward.
+  intent: "Craft a clear, empathetic End-of-Life (EOL) message that communicates product\
+    \ or feature discontinuation, explains the rationale, addresses customer impact,\
+    \ provides transition support, and positions the replacement solution \u2014 sized\
+    \ to the blast radius. Use this to maintain customer trust during difficult transitions\
+    \ and reduce churn by demonstrating care and offering a clear path forward."
+- name: eol-process
+  description: "Run a product sunset end to end \u2014 decide, align, plan, prepare,\
+    \ announce, close. Use when you need the whole EOL process, not just one artifact."
+  type: workflow
+  path: skills/eol-process/SKILL.md
+  intent: Orchestrate a complete product end-of-life from the go/no-go decision through
+    post-retirement review, sequencing the decision, stakeholder alignment, operational
+    plan, internal enablement, customer announcement, and closure. Right-sized so
+    a feature deprecation runs in a week and a regulated hardware retirement runs
+    across quarters. Use this to lose the product without losing the customer.
+- name: eol-readiness-advisor
+  description: Run a go/no-go assessment for retiring a product or feature, then right-size
+    the effort. Use when someone says "we should probably kill this" and nobody has
+    made the call.
+  type: interactive
+  path: skills/eol-readiness-advisor/SKILL.md
+  intent: Structured go/no-go assessment for sunsetting a product or feature. Determines
+    whether EOL is the right call, how intense the sunset effort needs to be, and
+    which organizational functions need to be involved. Prevents both premature kills
+    and expensive delays on products that should have been retired sooner.
+- name: eol-stakeholder-sequence
+  description: Plan who to talk to about a sunset, in what order, and what each conversation
+    must cover. Use when an EOL decision is made and you want the landmines found
+    before the announcement.
+  type: component
+  path: skills/eol-stakeholder-sequence/SKILL.md
+  intent: "Plan the order and content of stakeholder conversations for an EOL decision.\
+    \ Encodes the hard-won lesson that EOL engagement has a specific sequence \u2014\
+    \ legal exposure first, financial impact second, then revenue-facing teams, then\
+    \ customer-facing teams \u2014 and that getting the order wrong means discovering\
+    \ landmines after the announcement instead of before."
 - name: epic-breakdown-advisor
   description: Break down epics into user stories with Humanizing Work split patterns.
     Use when a backlog item is too large to estimate, sequence, or deliver safely.
@@ -351,6 +404,16 @@ skills:
     \ teams around core assumptions, craft testable hypotheses, and ensure learning\
     \ happens every sprint by exposing gaps in understanding (problem, users, value,\
     \ and why the solution should work)."
+- name: lifecycle-play-advisor
+  description: "Diagnose where a product sits in its lifecycle and which play fits\
+    \ \u2014 extend, replace, or retire. Use when a product is fading and you need\
+    \ the call, not just the worry."
+  type: interactive
+  path: skills/lifecycle-play-advisor/SKILL.md
+  intent: Guided triage for a product at the mature-to-decline inflection. Establishes
+    the lifecycle stage from the transition questions, identifies what is actually
+    driving the pressure, tests the extension play before conceding to replacement
+    or retirement, and routes to the skill that executes the chosen play.
 - name: market-landscape-scan
   description: Map a market's segments, players, substitutes, and whitespace with
     cited evidence. Use when entering or re-evaluating a market before sizing, positioning,
@@ -541,6 +604,17 @@ skills:
     them, why, and how it makes them feel. Use this to align stakeholders on the problem
     before jumping to solutions, and to frame product work around user outcomes rather
     than feature requests.
+- name: product-lifecycle-plays
+  description: Map a product's lifecycle stage and choose between extension, replacement,
+    and retirement plays. Use when a product is maturing or declining and the next
+    move isn't obvious.
+  type: component
+  path: skills/product-lifecycle-plays/SKILL.md
+  intent: "Diagnose where a product sits in the Product Life Cycle and choose deliberately\
+    \ among the three plays available at the decline inflection \u2014 extend the\
+    \ product, replace it with a successor, or retire it. Includes the mature-to-declining\
+    \ transition questions, the seven replacement hazards with a risk register, and\
+    \ a portfolio worksheet for deciding across a product line."
 - name: product-sense-interview-answer
   description: Structure a spoken PM product-sense answer with assumptions, segmentation,
     pain-point prioritization, and MVP tradeoffs. Use when practicing design, improve,
