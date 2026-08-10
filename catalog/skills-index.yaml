@@ -351,9 +351,9 @@ skills:
     For detailed explanations, calculations, and examples, see the related deep-dive
     skills.
 - name: incoming-request-advisor
-  description: Decode an incoming message into a structured breakdown that separates
-    the literal ask from the job-to-be-done. Use before replying to a loaded Slack
-    ping, email, mandate, or escalation.
+  description: Decode an incoming message into a structured breakdown separating the
+    literal ask from the job-to-be-done. Use when a loaded Slack ping, email, mandate,
+    or escalation needs a reply.
   type: interactive
   path: skills/incoming-request-advisor/SKILL.md
   intent: Act as a chief-of-staff-grade analyst that decodes an incoming message into
