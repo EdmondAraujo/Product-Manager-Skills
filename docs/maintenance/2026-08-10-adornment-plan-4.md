@@ -1,6 +1,20 @@
 # Adornment Plan 4 — Back-Catalog Backfill
 
-**Status:** Approved Aug 10, 2026. Not started.
+**Status:** ✅ **COMPLETE — Aug 10, 2026.** All four waves shipped.
+
+**Final state:** every Component and Workflow skill in the library ships a `template.md` and
+worked examples from two business domains, except the three documented carve-outs below.
+Verified by sweep: 1 skill without examples (`finance-metrics-quickref`, carve-out) and
+1 single-domain (`skill-authoring-workflow`, carve-out).
+
+| Wave | Scope | Result |
+|---|---|---|
+| 1 | 4 template-only fixes | ✅ |
+| 2 | 7 core artifacts | ✅ |
+| 3 | 4 workflows | ✅ Brightwater debuts |
+| 4 | 10 single-domain + 3 Group A | ✅ |
+
+Single-domain gap: **21 → 0** (excluding carve-outs).
 **Predecessor:** `docs/maintenance/2026-07-17-adornment-and-docs-plan.md` (Plans 1-3, shipped)
 
 Bring the back catalog up to the "fully adorned" standard in CLAUDE.md: every Component and
