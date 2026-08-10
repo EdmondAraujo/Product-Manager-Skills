@@ -576,6 +576,22 @@ If Dean provides client work:
 - Keep the structure and lesson
 - Ask Dean if anything needs redacting
 
+### Provenance and Attribution (hard rule)
+**Cite public, linkable work by name. For unpublished internal or client-delivered material, cite
+the framework or the practice — not the artifact.**
+
+- **Fine:** published repos, blogs, Substack, podcast episodes, public talks/webinars (with the
+  link), and third-party frameworks with their authors
+- **Never:** private training decks, client workshops, internal playbooks, unpublished compendia,
+  client names *or their pseudonyms*, and local file paths
+
+Two traps, both of which have bitten this repo:
+1. **A named deliverable + a date + an author is findable** even with the client scrubbed
+2. **A denylist is a disclosure** — never commit "do not write examples about <topic>"; keep
+   exclusions in session memory and state the constraint positively (which domain to stay *inside*)
+
+Write `Distilled from practitioner experience running <the practice>` instead.
+
 ---
 
 ## Output Format

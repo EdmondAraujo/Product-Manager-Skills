@@ -331,6 +331,36 @@ What to avoid and why.
 
 ---
 
+## 🔐 Provenance and Attribution
+
+Skills earn trust by citing their sources. But an attribution can itself disclose something it
+shouldn't, so there is one rule:
+
+**Cite public, linkable work by name. For unpublished internal or client-delivered material, cite
+the framework or the practice — not the artifact.**
+
+**Cite freely, with a link:**
+- Published repos, blog posts, Substack articles, podcast episodes, public talks and webinars
+- Third-party frameworks and their authors — Moore, Cohn, Patton, Torres, Porter, Ansoff, HBR
+
+**Never name:**
+- Private training decks, client workshops, internal playbooks, or unpublished compendia
+- Client names and pseudonyms alike — a placeholder like "XYZ Co" still signals a real engagement
+- Local file paths on anyone's machine
+
+Write `Distilled from practitioner experience running <the practice>` instead. It is true, useful,
+and points at nothing.
+
+**Two traps worth naming, because both have bitten this repo:**
+
+1. **A named deliverable plus a date plus an author is findable**, even with the client scrubbed.
+   "Company X's Q3 Strategy Workshop" identifies the engagement on its own.
+2. **A denylist is a disclosure.** Never write "do not create examples about <specific topic>" into
+   a committed file — that points a reader straight at the sensitive material. Keep exclusions in
+   private notes and state the constraint positively: which domain to stay *inside*.
+
+---
+
 ## ✅ Quality Checklist (Before Submitting)
 
 Your skill should pass these checks:
