@@ -5,8 +5,8 @@
     "email": "dean.peters@productside.com"
   },
   "metadata": {
-    "description": "70 battle-tested product management skills for Claude Code \u2014 discovery, strategy, finance, career, and more.",
-    "version": "0.83.0"
+    "description": "77 battle-tested product management skills for Claude Code \u2014 discovery, strategy, finance, career, lifecycle, and more.",
+    "version": "0.84.0"
   },
   "plugins": [
     {
@@ -283,14 +283,79 @@
       "strict": false
     },
     {
+      "name": "eol-checklist",
+      "source": "./skills/eol-checklist",
+      "description": "Build a phase-gated EOL checklist sized to the sunset, with an owner per item.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "eol",
+        "sunset",
+        "planning"
+      ],
+      "strict": false
+    },
+    {
+      "name": "eol-internal-enablement",
+      "source": "./skills/eol-internal-enablement",
+      "description": "Build the support FAQ, sales talking points, and objection handling before an EOL.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "eol",
+        "enablement",
+        "sunset"
+      ],
+      "strict": false
+    },
+    {
       "name": "eol-message",
       "source": "./skills/eol-message",
-      "description": "Write a clear, empathetic EOL announcement with rationale and next steps.",
+      "description": "Write a right-sized EOL announcement with rationale, impact, and next steps.",
       "category": "strategy",
       "tags": [
         "pm",
         "eol",
         "communication",
+        "sunset"
+      ],
+      "strict": false
+    },
+    {
+      "name": "eol-process",
+      "source": "./skills/eol-process",
+      "description": "Run a product sunset end to end: decide, align, plan, prepare, announce, close.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "eol",
+        "sunset",
+        "workflow"
+      ],
+      "strict": false
+    },
+    {
+      "name": "eol-readiness-advisor",
+      "source": "./skills/eol-readiness-advisor",
+      "description": "Run a go/no-go assessment for retiring a product, then right-size the effort.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "eol",
+        "sunset",
+        "decision"
+      ],
+      "strict": false
+    },
+    {
+      "name": "eol-stakeholder-sequence",
+      "source": "./skills/eol-stakeholder-sequence",
+      "description": "Plan who to talk to about a sunset, in what order, and what each must cover.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "eol",
+        "stakeholders",
         "sunset"
       ],
       "strict": false
@@ -443,6 +508,19 @@
         "lean-ux",
         "assumptions",
         "experimentation"
+      ],
+      "strict": false
+    },
+    {
+      "name": "lifecycle-play-advisor",
+      "source": "./skills/lifecycle-play-advisor",
+      "description": "Diagnose a product's lifecycle stage and pick the play: extend, replace, or retire.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "lifecycle",
+        "strategy",
+        "decision"
       ],
       "strict": false
     },
@@ -667,6 +745,19 @@
         "problem-statement",
         "framing",
         "empathy"
+      ],
+      "strict": false
+    },
+    {
+      "name": "product-lifecycle-plays",
+      "source": "./skills/product-lifecycle-plays",
+      "description": "Map lifecycle stage and choose between extension, replacement, and retirement plays.",
+      "category": "strategy",
+      "tags": [
+        "pm",
+        "lifecycle",
+        "strategy",
+        "plc"
       ],
       "strict": false
     },
