@@ -95,17 +95,21 @@ flavor of an existing axis and does not earn its place.
 
 #### Anonymization guardrail — read before writing any Brightwater example
 
-This is the **highest-risk domain in the repo**, because Dean's real client work is in life
-sciences and one source artifact (a cryogenic label transition checklist) is a real client
-document. The customer-anonymization protocol therefore needs *more* care here, not equal care.
+This is the **highest-risk domain in the repo.** Real client work sits in life sciences, so the
+customer-anonymization protocol needs *more* care here, not equal care.
 
-**Hard exclusions — never write a Brightwater example involving:**
-- Specimen or sample labeling of any kind
-- Cold chain, cryogenic storage, or biobanking
-- Lab consumables or label/adhesive products
+**Positive constraint: stay inside clinical trial operations.** Trial site management, protocol
+amendments, patient recruitment, monitoring workflows, study close-out. That corner was chosen
+deliberately, and staying in it is what keeps examples clear of anything drawn from real
+engagements.
 
-Clinical trial *operations* was chosen deliberately because it is plainly distant from that source
-material. Stay in that corner.
+**Do not build an example by adapting the shape of a source document** — not the subject matter,
+not the section structure, not the scenario. Invent the situation from the framework being taught,
+then check it reads as fiction.
+
+Per the anonymization protocol, the specific out-of-bounds topics are **not enumerated here**. A
+denylist in a public repo points at the very thing it excludes. Session memory holds the detail;
+if you are unsure whether a scenario is too close, ask rather than guess.
 
 ---
 
