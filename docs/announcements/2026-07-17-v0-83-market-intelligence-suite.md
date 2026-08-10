@@ -59,5 +59,5 @@ Most competitive research is a deck of unlabeled inference assembled the week be
 
 ## References
 
-- Distilled from Dean Peters' [product-manager-prompts](https://github.com/deanpeters/product-manager-prompts) market-intelligence collection, the Competitive Analysis Playbook, and the "Competitive Research on Steroids" compendium (Productside)
+- Distilled from Dean Peters' [product-manager-prompts](https://github.com/deanpeters/product-manager-prompts) market-intelligence collection, plus practitioner field material on competitive and market intelligence
 - Framework attributions: Michael E. Porter (HBR, 1979); H. Igor Ansoff (HBR, 1957); Kano; Ulwick (ODI); Osterwalder & Pigneur; Ries & Trout; Hamel & Prahalad (HBR, 1994); SCIP Code of Ethics

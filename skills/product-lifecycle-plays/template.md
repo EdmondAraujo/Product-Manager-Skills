@@ -4,8 +4,8 @@ Three worksheets: the stage diagnosis (per product), the portfolio view (per lin
 register (replacement plays only). Quality checks at the bottom.
 
 ## Provenance
-Distilled from Dean Peters' GTM/EOL Strategy Workshop and the "Mastering Product End of Life
-Strategy" webinar (Productside).
+Distilled from practitioner experience running product lifecycle transitions and product
+retirements across software, hardware, and regulated industries.
 
 ---
 

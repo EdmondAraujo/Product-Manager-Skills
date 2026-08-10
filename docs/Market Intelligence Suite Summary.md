@@ -156,8 +156,8 @@ the repo's anonymization protocol.)
 
 ## Sources & Credits
 
-Adapted from Dean Peters' Competitive Analysis Playbook and "Competitive Research on Steroids"
-compendium (Productside), and the `market-intelligence/` prompt collection in the companion
+Adapted from practitioner experience in competitive and market intelligence, and the
+`market-intelligence/` prompt collection in the companion
 [product-manager-prompts](https://github.com/deanpeters/product-manager-prompts) repo. External
 frameworks credited in each skill: Porter (1979), Ansoff (1957), Kano, Ulwick, Osterwalder &
 Pigneur, Ries & Trout, Hamel & Prahalad. Guardrails follow the SCIP Code of Ethics.

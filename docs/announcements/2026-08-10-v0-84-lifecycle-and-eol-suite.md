@@ -154,6 +154,6 @@ was wrong. That's the more useful lesson.
 
 ## Sources
 
-Distilled from Dean Peters' GTM/EOL Strategy Workshop, the "Mastering Product End of Life Strategy"
-webinar (Productside), and the five EOL prompts in
+Distilled from practitioner experience running product lifecycle transitions and product
+retirements, plus the five EOL prompts in
 [`product-manager-prompts`](https://github.com/deanpeters/product-manager-prompts).
