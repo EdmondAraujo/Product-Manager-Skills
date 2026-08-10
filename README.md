@@ -253,7 +253,7 @@ See [docs/Platform Guides for PMs.md](docs/Platform%20Guides%20for%20PMs.md) for
 **v0.82 — July 8, 2026**
 - Added `incoming-request-advisor` (Interactive) — drop in a Slack ping, email, mandate, or escalation and get a structured breakdown that separates the literal ask from the real job-to-be-done, reads sender power and stake, and points you toward a reply. Ships with a copy/paste template so you can run it by hand too
 - **New: a browsable [download shelf](dist/) at `/dist`** — no terminal, no Releases tab. Read the plain-language [README](dist/README.md), scan the [CATALOG](dist/CATALOG.md), and download any skill or pack straight from the repo. Built for PMs who just want the skills
-- Library now at **70 skills**
+- Library now at **56 skills**
 
 **v0.81 — July 4, 2026**
 - Every skill now has a required `## Input` section: what to bring, what happens to context you supply up front (it's used, not re-asked), and reassurance that arriving empty-handed is fine — the guided flow covers the rest
